@@ -1049,6 +1049,13 @@ p {
         height: 100%;
         -o-object-fit: cover;
            object-fit: cover; }
+        .hero-home .bg .img img.anim, .hero-home .bg .img video.anim, .hero-home .bg .img iframe.anim {
+          opacity: 0;
+          -webkit-transition: opacity 0.3s ease;
+          -o-transition: opacity 0.3s ease;
+          transition: opacity 0.3s ease; }
+          .hero-home .bg .img img.anim.done, .hero-home .bg .img video.anim.done, .hero-home .bg .img iframe.anim.done {
+            opacity: 1; }
 
 .hero {
   width: 100%;
