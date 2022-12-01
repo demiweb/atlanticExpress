@@ -3610,7 +3610,8 @@ main {
 
   .hero-cont {
     padding-top: 16.6667vw;
-    padding-bottom: 6.9444vw;
+    //padding-bottom: 6.9444vw;
+    padding-bottom: 19.9444vw;
   }
 
   .hero-info {
@@ -3784,6 +3785,8 @@ path.yellow-cargo {
     width: 100%;
     min-height: 29vw;
     border: 1px solid #0E297E;
+    border-bottom: none;
+
 
     &::before {
       content: none;

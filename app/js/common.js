@@ -57,28 +57,7 @@ function scrollAnimations() {
 
 //
 
-let preloader = document.querySelector('.preloader');
-
-function preloading() {
-    if (preloader) {
-        document.body.classList.add('no-scroll');
-        preloader.classList.add('start');
-        setTimeout(() => {
-            preloader.classList.add('log');
-        }, 2900);
-        setTimeout(() => {
-            preloader.classList.add('end');
-            document.body.classList.remove('no-scroll');
-        }, 5400);
-        setTimeout(() => {
-            scrollAnimations();
-
-        }, 5700)
-    }
-}
-
-preloading();
-// scrollAnimations();
+scrollAnimations();
 
 function helloConsole() {
     var staticText = 'Made with ❤️ by Demiweb';
@@ -120,6 +99,7 @@ function helloConsole() {
 }
 
 helloConsole();
+
 var allLazyLoad = [...document.querySelectorAll('.lazyload')];
 
 function allLozadImg() {
@@ -480,6 +460,5 @@ function cargoLines() {
 }
 
 cargoLines();
-
 
 //cargo line

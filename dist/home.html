@@ -16,20 +16,6 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body class="home">
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
-<div class="preloader">
-    <div class="log">
-        <img src="./img/logo.svg" alt="">
-    </div>
-    
-    <div class="cargo-ship-svg">
-        <img src="./img/cargo-ship-svg.svg" alt="">
-    </div>
-    <lottie-player class="lottie" src="https://assets10.lottiefiles.com/packages/lf20_g28vdovf.json" mode="bounce" background="transparent"
-                   speed="0.24" style="width: auto; height: 300px;" loop autoplay></lottie-player>
-
-</div>
 
 <header class="header">
     <div class="header-container">
@@ -105,7 +91,12 @@
     <section class="hero-home">
         <div class="bg scrolled-bg" data-inc="0.2">
             <div class="img">
-                <img class="lazyload" data-src="./img/hero-home-img.jpg" alt="">
+                <!--                <img class="lazyload" data-src="./img/hero-home-img.jpg" alt="image">-->
+                <video class="lazyload" autoplay="" loop="" muted="" playsinline="" defaultmuted=""
+                       poster="./img/hero-home-img.jpg">
+                    <source autoplay="" loop="" muted="" playsinline="" defaultmuted=""
+                            data-src="./img/video-atlantic.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
         <div class="hero-cont">
@@ -118,7 +109,7 @@
                     </h1>
 
                     <div class="hero-info">
-                        <a href="" class="btn btn-right  anim"  data-anim-delay="0" data-anim-duration="760"
+                        <a href="" class="btn btn-right  anim" data-anim-delay="0" data-anim-duration="760"
                            data-anim="fade-left">
                             <span>Get contact</span></a>
 
@@ -157,7 +148,8 @@
                 <h2 class="semi-title anim">Atlantic Express Corp. <br> is United States based company that offers full
                     service logistics.</h2>
                 <p class="anim" data-anim-delay="0" data-anim-duration="760"
-                   data-anim="anim-stage">We operate on an international scale covering U.S., Canada, South and Central America, Eastern
+                   data-anim="anim-stage">We operate on an international scale covering U.S., Canada, South and Central
+                    America, Eastern
                     Europe, Far and Middle East, Africa. Company is licensed as Non-Vessel Operating Common Carrier
                     (NVOCC) by the Federal Maritime Commission and approved by TSA to be Indirect Air Carrier.</p>
             </div>
@@ -165,7 +157,7 @@
             <div class="title-head">
                 <span class="semi-title anim">Our services are used by more than 1000+ clients a year, who note a number of advantages
                 </span>
-                <a href="" class="btn btn-right anim"  data-anim-delay="0" data-anim-duration="760"
+                <a href="" class="btn btn-right anim" data-anim-delay="0" data-anim-duration="760"
                    data-anim="anim-stage">
                     <span>about company</span></a>
             </div>
@@ -173,7 +165,7 @@
                 <div class="our-single-service anim" data-anim-delay="0" data-anim-duration="960"
                      data-anim="fade">
                     <div class="img">
-                        <img src="./img/ab-1.svg" alt="">
+                        <img src="./img/ab-1.svg" alt="image">
                     </div>
                     <div class="text">
                         <p>international deliveries around the world</p>
@@ -182,7 +174,7 @@
                 <div class="our-single-service anim" data-anim-delay="0" data-anim-duration="960"
                      data-anim="fade">
                     <div class="img">
-                        <img src="./img/ab-2.svg" alt="">
+                        <img src="./img/ab-2.svg" alt="image">
                     </div>
                     <div class="text">
                         <p>international deliveries around the world</p>
@@ -191,7 +183,7 @@
                 <div class="our-single-service anim" data-anim-delay="0" data-anim-duration="960"
                      data-anim="fade">
                     <div class="img">
-                        <img src="./img/ab-3.svg" alt="">
+                        <img src="./img/ab-3.svg" alt="image">
                     </div>
                     <div class="text">
                         <p>international deliveries around the world</p>
@@ -200,7 +192,7 @@
                 <div class="our-single-service anim" data-anim-delay="0" data-anim-duration="960"
                      data-anim="fade">
                     <div class="img">
-                        <img src="./img/ab-4.svg" alt="">
+                        <img src="./img/ab-4.svg" alt="image">
                     </div>
                     <div class="text">
                         <p>international deliveries around the world</p>
@@ -209,7 +201,7 @@
                 <div class="our-single-service anim" data-anim-delay="0" data-anim-duration="960"
                      data-anim="fade">
                     <div class="img">
-                        <img src="./img/ab-5.svg" alt="">
+                        <img src="./img/ab-5.svg" alt="image">
                     </div>
                     <div class="text">
                         <p>international deliveries around the world</p>
@@ -218,7 +210,7 @@
                 <div class="our-single-service anim" data-anim-delay="0" data-anim-duration="960"
                      data-anim="fade">
                     <div class="img">
-                        <img src="./img/ab-6.svg" alt="">
+                        <img src="./img/ab-6.svg" alt="image">
                     </div>
                     <div class="text">
                         <p>international deliveries around the world</p>
@@ -231,18 +223,18 @@
         <div class="container">
             <div class="title-head">
                 <div class="arrow anim">
-                    <img src="./img/arrow-g-r.svg" alt="">
+                    <img src="./img/arrow-g-r.svg" alt="image">
                 </div>
                 <span class="semi-title anim">We will deliver any product on time</span>
             </div>
             <div class="products-list counting-delay">
                 <a href="" class="single-product anim" data-anim-delay="0" data-anim-duration="760"
-                data-anim="zoom-fade">
+                   data-anim="zoom-fade">
                     <div class="text">
                         <p>Agricultural and Construction equipment export and disassembly</p>
                     </div>
                     <div class="img">
-                        <img class="lazyload" data-src="./img/pr1.jpg" alt="">
+                        <img class="lazyload" data-src="./img/pr1.jpg" alt="image">
                     </div>
                 </a>
                 <a href="" class="single-product anim" data-anim-delay="0" data-anim-duration="760"
@@ -251,7 +243,7 @@
                         <p>Industrial project cargo and Breakbulk</p>
                     </div>
                     <div class="img">
-                        <img class="lazyload" data-src="./img/pr2.jpg" alt="">
+                        <img class="lazyload" data-src="./img/pr2.jpg" alt="image">
                     </div>
                 </a>
                 <a href="" class="single-product anim" data-anim-delay="0" data-anim-duration="760"
@@ -260,7 +252,7 @@
                         <p>Hazardous cargo</p>
                     </div>
                     <div class="img">
-                        <img class="lazyload" data-src="./img/pr3.jpg" alt="">
+                        <img class="lazyload" data-src="./img/pr3.jpg" alt="image">
                     </div>
                 </a>
                 <a href="" class="single-product anim" data-anim-delay="0" data-anim-duration="760"
@@ -269,7 +261,7 @@
                         <p>Boat Export</p>
                     </div>
                     <div class="img">
-                        <img class="lazyload" data-src="./img/pr4.jpg" alt="">
+                        <img class="lazyload" data-src="./img/pr4.jpg" alt="image">
                     </div>
                 </a>
                 <a href="" class="single-product all anim" data-anim-delay="0" data-anim-duration="760"
@@ -285,14 +277,14 @@
         <div class="container">
             <div class="title-head">
                 <div class="arrow anim">
-                    <img src="./img/arrow-g-r.svg" alt="">
+                    <img src="./img/arrow-g-r.svg" alt="image">
                 </div>
                 <span class="semi-title anim">PROJECT SHOWCASES</span>
-                <a href="" class="btn btn-right anim"  data-anim-delay="0" data-anim-duration="760"
+                <a href="" class="btn btn-right anim" data-anim-delay="0" data-anim-duration="760"
                    data-anim="anim-stage">
                     <span>all news</span></a>
             </div>
-            <div class="showcase-cont anim"  data-anim-delay="0" data-anim-duration="760"
+            <div class="showcase-cont anim" data-anim-delay="0" data-anim-duration="760"
                  data-anim="fade-up">
                 <div class="showcase-slider swiper-container">
                     <div class="swiper-wrapper">
@@ -304,11 +296,11 @@
                                     Mexico.</p>
 
                                 <div class="arr">
-                                    <img src="./img/arrow-g-r.svg" alt="">
+                                    <img src="./img/arrow-g-r.svg" alt="image">
                                 </div>
                             </div>
                             <div class="img">
-                                <img class="lazyload" data-src="./img/nw1.jpg" alt="">
+                                <img class="lazyload" data-src="./img/nw1.jpg" alt="image">
                             </div>
                         </a>
                         <a href="" class="showcase-slide swiper-slide">
@@ -319,21 +311,21 @@
                                     Mexico.</p>
 
                                 <div class="arr">
-                                    <img src="./img/arrow-g-r.svg" alt="">
+                                    <img src="./img/arrow-g-r.svg" alt="image">
                                 </div>
                             </div>
                             <div class="img">
-                                <img class="lazyload" data-src="./img/nw1.jpg" alt="">
+                                <img class="lazyload" data-src="./img/nw1.jpg" alt="image">
                             </div>
                         </a>
                     </div>
                 </div>
                 <div class="btns">
                     <div class="slider-btn slider-btn--prev">
-                        <img src="./img/arrow-g-r.svg" alt="">
+                        <img src="./img/arrow-g-r.svg" alt="image">
                     </div>
                     <div class="slider-btn slider-btn--next">
-                        <img src="./img/arrow-g-r.svg" alt="">
+                        <img src="./img/arrow-g-r.svg" alt="image">
                     </div>
                 </div>
                 <div class="time-line">
